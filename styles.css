@@ -105,6 +105,14 @@ h3 {
     padding: 10px;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -329,6 +337,11 @@ nav ul li:hover a {
     h3 {
         font-size: 0.9rem;
         line-height: 40px;
+        letter-spacing: 10px;
+    }
+    h4 {
+        font-size: 0.7rem;
+        line-height: 20px;
         letter-spacing: 10px;
     }
     #contact a {
