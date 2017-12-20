@@ -21,10 +21,48 @@ header {
     display: block;
 }
 
+section {
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2b2b2b;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    letter-spacing: 3px;
+    color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0px;
+}
+
+footer p a {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
 .titles {
     position: relative;
     text-align: center;
     top: 30%;
+}
+
+.contact {
+    height: 600px;
+    width: 100%;
+    background: url("footer.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
 }
 
 #home a {
@@ -161,6 +199,7 @@ nav ul li {
 }
 
 nav ul li:hover a {
+    position: relative;
     text-shadow: 0px 0px 6px #fff;
     -moz-transform: scale(1.3);
     -ms-transform: scale(1.3);
