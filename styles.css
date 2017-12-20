@@ -142,20 +142,66 @@ a {
     color: white;
 }
 
+hr {
+    height: 3px;
+    background-color: #666666;
+    margin: 25px 15px 15px 15px;
+}
+
 h1 span {
     padding: 7px 20px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
-    width: 100%;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     text-align: center;
 }
 
-.container h2 {
-    padding: 50px;
-    font-size: 2rem;
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.socials {
+    padding: 25px;
+    text-align: center;
+}
+
+.socials a {
+    color: #2b2b2b;
+}
+
+.socials i {
+    padding: 5px 25px 5px 25px;
+}
+
+
+/*Responsive styles - layout*/
+
+.about-picture {
+    max-width: 50%;
+    float: left;
+    padding: 25px;
+}
+
+.about-text {
+    text-align: left;
+    max-width: 50%;
+    float: left;
+    padding: 25px;
+}
+
+.about-text p {
+    line-height: 1.75rem;
 }
 
 
@@ -312,6 +358,13 @@ nav ul li:hover a {
     }
     .container h2 {
         font-size: 1rem;
+    }
+    .about-picture {
+        max-width: 100%;
+    }
+    .about-text {
+        max-width: 100%;
+        text-align: center;
     }
 }
 
