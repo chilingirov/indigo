@@ -169,7 +169,7 @@ a {
 }
 
 hr {
-    height: 1px;
+    height: 3px;
     background-color: #666666;
     margin: 25px 15px 15px 15px;
 }
@@ -218,10 +218,6 @@ img {
 
 
 /*blog post layout*/
-
-.blog h2 {
-    padding: 25px 25px 0px 25px;
-}
 
 .blog h3 {
     color: white;
@@ -362,10 +358,6 @@ nav ul li:hover a {
 .letter-submit {
     width: 100%;
     padding: 30px;
-}
-
-form {
-    padding: 25px;
 }
 
 form input {
