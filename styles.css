@@ -14,9 +14,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+    padding: 0px;
+}
+
 header {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     /* background: url(background.jpg) center center; */
@@ -128,19 +132,19 @@ footer p a {
 
 /*Navigation styles*/
 
-#home a {
+.home-nav a {
     color: rgba(255, 255, 255, 1);
 }
 
-#about a {
+.about-nav a {
     color: rgba(255, 255, 255, 0.9);
 }
 
-#contact a {
+.contact-nav a {
     color: rgba(255, 255, 255, 0.6);
 }
 
-#blog a {
+.blog-nav a {
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -151,8 +155,11 @@ ul {
 }
 
 nav {
-    margin-left: 0px;
     width: 100%;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    z-index: 99999;
 }
 
 li {
@@ -170,13 +177,6 @@ li {
 a {
     text-decoration: none;
     color: white;
-}
-
-nav {
-    padding: 0px;
-    width: 100%;
-    margin: 0px;
-    z-index: 99999;
 }
 
 ul {
@@ -200,14 +200,15 @@ nav ul li:hover a {
     -o-transition: all 0.6s linear;
     -ms-transition: all 0.6s linear;
     transition: all 0.6s linear;
+    display: block;
 }
 
 .burger-button {
     width: 100%;
-    display: none;
     margin: 0px;
     top: 0px;
     right: 0px;
+    display: none;
 }
 
 
@@ -388,6 +389,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     margin: 30px;
+    cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
@@ -547,6 +549,6 @@ button {
 
 /*Toggle class for the navigation*/
 
-.active {
+.show {
     display: block;
 }
