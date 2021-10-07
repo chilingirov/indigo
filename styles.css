@@ -274,7 +274,7 @@ img {
     max-width: 100%;
     padding: 10px;
     margin: 10px;
-    height: 500px;
+    height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(blog-post-one.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ img {
     padding: 10px;
     margin: 10px;
     margin-bottom: 15px;
-    height: 242px;
+    height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(blog-post-two.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -308,7 +308,7 @@ img {
     max-width: 100%;
     margin: 10px;
     padding: 10px;
-    height: 242px;
+    height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(blog-post-three.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -539,7 +539,7 @@ button {
         float: left;
     }
     .post-1 {
-        height: 242px;
+        height:100%;
     }
     .post-1 h3 {
         padding-top: 100px;
