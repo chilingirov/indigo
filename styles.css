@@ -244,6 +244,10 @@ img {
     padding: 10px;
     text-align: center;
 }
+.post-wrapper {
+    display:flex;
+    flex-direction:row;
+    }
 
 .container:after {
     content: "";
@@ -486,6 +490,10 @@ button {
 /*Responsive queries - when the screen is less than 980px*/
 
 @media screen and (max-width:980px) {
+    .post-wrapper {
+    display:flex;
+    flex-direction:column;
+    }
     h1 {
         font-size: 1.5rem;
     }
